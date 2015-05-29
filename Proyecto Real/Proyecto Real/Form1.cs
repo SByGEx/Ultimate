@@ -19,7 +19,8 @@ namespace Proyecto_Real
 
         private void button2_Click(object sender, EventArgs e)
         {
-            
+            Ezequiel.EMTi neo = new Ezequiel.EMTi();
+            neo.ShowDialog();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -29,7 +30,8 @@ namespace Proyecto_Real
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            delvy.Delvy neo = new delvy.Delvy();
+            neo.ShowDialog();
         }
     }
 }
