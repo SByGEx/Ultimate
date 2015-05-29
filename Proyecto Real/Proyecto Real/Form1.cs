@@ -16,5 +16,11 @@ namespace Proyecto_Real
         {
             InitializeComponent();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Ezequiel.EMTi neo = new Ezequiel.EMTi();
+            neo.ShowDialog();
+        }
     }
 }
