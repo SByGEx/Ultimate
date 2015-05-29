@@ -14,9 +14,19 @@
         
         
     }
+    #divBody
+    {
+     
+        background-color:darkgray;
+        height:2000px;
+        margin-left:190px;
+        width: 993px;
+    }
+
     div
     {
-        background-color:cadetblue;
+        margin:0px;
+        width: 994px;
     }
     nav { 
         margin-left: 0px;
@@ -26,10 +36,11 @@
 
         nav ul, ol {
             list-style: none;
-        }
+    width: 995px;
+}
 
         nav li a:hover {
-            background-color: transparent;
+            background-color: Highlight;
             color: black;
         }
 
@@ -39,7 +50,8 @@
             padding: 10px;
             text-align: center;
             text-decoration: none;
-        }
+    width: 198px;
+}
 
 
 
@@ -49,7 +61,7 @@
 
         nav > ul > li {
             float: left;
-            width: 145px;
+            width: 194px;
          }
             nav > ul > li > ul {
                 -webkit-transition: all .3s ease;

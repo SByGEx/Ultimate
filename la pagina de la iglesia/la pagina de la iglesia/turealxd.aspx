@@ -7,29 +7,29 @@
     <title></title>
     <link rel="stylesheet" href="StyleSheet1.css" type="text/css" />
 </head>
-<body>
+<body >
     <form id="form1" runat="server">
-    <div style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 28px; color: #000000">
-    
-        Este es el sitio web de la iglesia bibica cristiana
-    
-    </div>
+  <div id="divBody">
+    <div >
+       <img src="delvytoolbar.jpg" style="width: 993px; height: 161px" />
         <nav>
         <ul>
-            <li> <a href="#"><span></span> Inicio </a> </li>
-            <li> <a href="#"><span></span> Ver Historia </a> </li>
-            <li> <a href="#"><span></span> Centro infantil </a> </li>
-            <li> <a href="#"><span></span>Contactos </a> </li>
+            <li> <a href="#" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 20px; color: #FFFFFF">Inicio </a> </li>
+            <li style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 21px; color: #FFFFFF"> <a href="#" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 20px; color: #FFFFFF">Ver Historia </a> </li>
+            <li style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 21px; color: #FFFFFF"> <a href="#" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 20px; color: #FFFFFF">Centro infantil </a> </li>
+            <li style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 21px; color: #FFFFFF"> <a href="#" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 20px; color: #FFFFFF">Contactos </a> </li>
             <li>
-                <a href="#"><span></span> Actividades </a>
+                <a href="#" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 20px; color: #FFFFFF">Actividades </a>
                 <ul>
-                    <li> <a href="#"> Opcion1 </a> </li>
-                    <li> <a href="#">Opcion2 </a> </li>
-                    <li><a href="#"> Opcion3 </a> </li>
+                    <li> <a href="Calendario.aspx" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 20px; color: #FFFFFF"> Calendario </a> </li>
+                    <li> <a href="#" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 20px; color: #FFFFFF">Opcion2 </a> </li>
+                    <li><a href="#" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 20px; color: #FFFFFF"> Opcion3 </a> </li>
                 </ul>
             </li>
         </ul>
     </nav>
+    </div>
+         </div>
     </form>
 </body>
 </html>
