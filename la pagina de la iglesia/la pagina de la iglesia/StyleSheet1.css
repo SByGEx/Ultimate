@@ -33,6 +33,11 @@
         margin-top: 0px;
         width:100%;
     }
+    #sign
+    {
+        margin-left:940px;
+        background-color:transparent;
+    }
 
         nav ul, ol {
             list-style: none;

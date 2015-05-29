@@ -8,6 +8,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C3398899-9AAB-4369-BE91-F409F9D38D31}"
 	ProjectSection(SolutionItems) = preProject
 		la pagina de la iglesia\article.jpg = la pagina de la iglesia\article.jpg
+		..\..\..\..\Pictures\BIBLIA-1.jpg = ..\..\..\..\Pictures\BIBLIA-1.jpg
 		la pagina de la iglesia\delvytoolbar.jpg = la pagina de la iglesia\delvytoolbar.jpg
 		la pagina de la iglesia\startof.jpg = la pagina de la iglesia\startof.jpg
 	EndProjectSection

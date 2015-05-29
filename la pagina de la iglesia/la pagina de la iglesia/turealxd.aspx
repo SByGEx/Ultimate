@@ -34,8 +34,16 @@
     </nav>
     </div>
       
-    <form id="form1"  runat="server" style="background-color: #CCCCFF">
-        hola mundo</form>
+      <a href="#" id="sign" > Sign-in </a>
+    <!--<form id="form1"  runat="server" style="background-color: #CCCCFF">
+        <asp:HyperLink ID="HyperLink1" runat="server">Sign-in</asp:HyperLink>
+    </form>-->
+      <article>
+          <h1>Bienvenidos a la Ibc de san francisco de macoris</h1>
+          <img src="BIBLIA-1.jpg"  />
+
+      </article>
          </div>
+
 </body>
 </html>
