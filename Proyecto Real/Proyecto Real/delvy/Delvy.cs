@@ -24,7 +24,7 @@ namespace Proyecto_Real.delvy
 
         private void toolStripButton1_Click(object sender, EventArgs e)
         {
-            fontDialog1.ShowDialog();
+            fontDialog1.ShowDialog(); 
             richTextBox1.Font = fontDialog1.Font;
         }
     }
