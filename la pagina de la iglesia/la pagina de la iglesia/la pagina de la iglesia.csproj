@@ -97,6 +97,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Home.html" />
+    <Content Include="StyleSheet1.css" />
     <Content Include="turealxd.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
