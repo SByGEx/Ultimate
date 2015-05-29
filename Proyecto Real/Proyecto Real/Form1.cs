@@ -26,6 +26,9 @@ namespace Proyecto_Real
         private void button1_Click(object sender, EventArgs e)
         {
 
+            Misael.FormuChercha frm = new Misael.FormuChercha();
+            frm.ShowDialog();
+
         }
 
         private void button3_Click(object sender, EventArgs e)
