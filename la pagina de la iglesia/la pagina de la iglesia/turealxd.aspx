@@ -12,10 +12,12 @@
         }
     </style>
 </head>
-<body >
-  <div id="divBody">
+<body style="background-color:darkgray">
     <div >
-       <img src="delvytoolbar.jpg" style="width: 993px; height: 161px" />
+       <img src="delvytoolbar.jpg"  style="margin-left:200px;width: 993px; height: 161px" />
+        
+    </div>
+  <div id="divBody" style="background-color: #FFFFFF">
         <nav>
         <ul>
             <li> <a href="#" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 20px; color: #FFFFFF">Inicio </a> </li>
@@ -32,10 +34,20 @@
             </li>
         </ul>
     </nav>
-    </div>
       
-    <form id="form1"  runat="server" style="background-color: #CCCCFF">
-        hola mundo</form>
+      <a href="#" id="sign" > Sign-in </a>
+      <a href="#" style="margin-left:930px"> Sign-out </a>
+    <!--<form id="form1"  runat="server" style="background-color: #CCCCFF">
+        <asp:HyperLink ID="HyperLink1" runat="server">Sign-in</asp:HyperLink>
+    </form>-->
+      <figure>
+          <h1 style="font-family: 'Malgun Gothic Semilight'; font-size: 30px">Bienvenidos a la Ibc de san francisco de macoris</h1>
+          <hr />
+          <p><u>Esta pagina esta siendo creada con el motivo de adorar a nuestro señor jesucristo.</u></p>
+         &nbsp;<img src="BIBLIA-1.jpg" style="height: 256px; width: 320px"  />
+      </figure>
+      <hr />
          </div>
+
 </body>
 </html>
