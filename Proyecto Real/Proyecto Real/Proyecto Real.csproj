@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="delvy\Delvy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="delvy\Delvy.Designer.cs">
+      <DependentUpon>Delvy.cs</DependentUpon>
+    </Compile>
     <Compile Include="Ezequiel\EMTi.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +66,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="delvy\Delvy.resx">
+      <DependentUpon>Delvy.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Ezequiel\EMTi.resx">
       <DependentUpon>EMTi.cs</DependentUpon>
     </EmbeddedResource>
@@ -89,7 +98,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="delvy\" />
     <Folder Include="Misael\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
