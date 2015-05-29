@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="StyleSheet1.css" type="text/css" />
     <style type="text/css">
         #form1 {
-            height: 1784px;
+            height: 939px;
         }
     </style>
 </head>
@@ -26,14 +26,16 @@
                 <a href="#" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 20px; color: #FFFFFF">Actividades </a>
                 <ul>
                     <li> <a href="Calendario.aspx" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 20px; color: #FFFFFF"> Calendario </a> </li>
-                    <li> <a href="#" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 20px; color: #FFFFFF">Opcion2 </a> </li>
+                    <li> <a href="Miembro.aspx" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 20px; color: #FFFFFF">Miembros (0.1v) </a> </li>
                     <li><a href="#" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 20px; color: #FFFFFF"> Opcion3 </a> </li>
                 </ul>
             </li>
         </ul>
     </nav>
     </div>
-    <form id="form1"  runat="server" style="background-color: #00FFFF">
+      
+    <form id="form1"  runat="server" style="background-color: #CCFFFF">
+        <a href="#"></a>
     </form>
          </div>
 </body>
