@@ -3,9 +3,12 @@
 <!DOCTYPE html>
 
 <style>
-   
+   *{
+       padding: 10px;
+   }
+   form {background-color:lightblue}
+   body {background-color:aqua}
 </style>
-
 <link rel="stylesheet" href="StyleSheet1.css" type="text/css"/>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -18,7 +21,7 @@
     <form id="Miembro" runat="server">
 
     <hgroup>
-        <h1>Agregar Miembros</h1>
+        <h1>&nbsp;Agregar Miembros</h1>
         <h2>Introduzca sus datos al formulario</h2>
     </hgroup>
 
