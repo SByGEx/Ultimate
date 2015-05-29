@@ -22,6 +22,18 @@ namespace Proyecto_Real.delvy
            
         }
 
+
+
+
+
+
+
+
+
+
+
+
+
         private void toolStripButton1_Click(object sender, EventArgs e)
         {
             fontDialog1.ShowDialog(); 
