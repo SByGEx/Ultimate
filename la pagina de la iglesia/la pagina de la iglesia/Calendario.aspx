@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Calendario.aspx.cs" Inherits="la_pagina_de_la_iglesia.Calendario" %>
+﻿<%--<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Calendario.aspx.cs" Inherits="la_pagina_de_la_iglesia.Calendario"/ %>--%>
 
 <!DOCTYPE html>
 
