@@ -16,5 +16,12 @@ namespace Proyecto_Real
         {
             InitializeComponent();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            delvy.Delvy lol = new delvy.Delvy();
+            lol.ShowDialog();
+                 
+        }
     }
 }
