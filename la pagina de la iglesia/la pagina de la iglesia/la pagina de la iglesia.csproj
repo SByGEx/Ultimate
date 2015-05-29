@@ -103,13 +103,6 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Calendario.aspx.cs">
-      <DependentUpon>Calendario.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Calendario.aspx.designer.cs">
-      <DependentUpon>Calendario.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Miembro.aspx.cs">
       <DependentUpon>Miembro.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
