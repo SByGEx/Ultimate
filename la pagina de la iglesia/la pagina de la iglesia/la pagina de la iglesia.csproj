@@ -87,6 +87,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Calendario.aspx" />
+    <Content Include="Miembro.aspx" />
     <Content Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -108,6 +109,13 @@
     </Compile>
     <Compile Include="Calendario.aspx.designer.cs">
       <DependentUpon>Calendario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Miembro.aspx.cs">
+      <DependentUpon>Miembro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Miembro.aspx.designer.cs">
+      <DependentUpon>Miembro.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="turealxd.aspx.cs">
