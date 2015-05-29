@@ -19,8 +19,8 @@ namespace Proyecto_Real
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Ezequiel.EMTi neo = new Ezequiel.EMTi();
-            neo.ShowDialog();
+            Ezequiel.EMTi em = new Ezequiel.EMTi();
+            em.ShowDialog();
         }
 
         private void button1_Click(object sender, EventArgs e)

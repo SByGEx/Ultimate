@@ -17,6 +17,11 @@ namespace Proyecto_Real.delvy
             InitializeComponent();
         }
 
-      
+        private void toolStripButton1_Click(object sender, EventArgs e)
+        {
+            fontDialog1.ShowDialog();
+            richTextBox1.Font = fontDialog1.Font;
+        }
     }
+
 }
