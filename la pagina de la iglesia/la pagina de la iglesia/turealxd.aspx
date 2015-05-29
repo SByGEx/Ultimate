@@ -35,7 +35,7 @@
     </div>
       
     <form id="form1"  runat="server" style="background-color: #CCCCFF">
-    </form>
+        hola mundo</form>
          </div>
 </body>
 </html>
