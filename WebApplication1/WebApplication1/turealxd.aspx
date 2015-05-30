@@ -20,12 +20,12 @@
   <div id="divBody" style="background-color: #FFFFFF">
         <nav>
         <ul>
-            <li> <a href="#" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 20px; color: #FFFFFF">Inicio </a> </li>
-            <li style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 21px; color: #FFFFFF"> <a href="#" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 20px; color: #FFFFFF">Ver Historia </a> </li>
-            <li style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 21px; color: #FFFFFF"> <a href="#" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 20px; color: #FFFFFF">Centro infantil </a> </li>
-            <li style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 21px; color: #FFFFFF"> <a href="#" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 20px; color: #FFFFFF">Contactos </a> </li>
+            <li> <a href="#" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 20px; color: #FFFFFF; height: 30px;">Inicio </a> </li>
+            <li style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 21px; color: #FFFFFF; height: 44px;"> <a href="#" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 20px; color: #FFFFFF; height: 30px;">Ver Historia </a> </li>
+            <li style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 21px; color: #FFFFFF; height: 52px;"> <a href="#" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 20px; color: #FFFFFF; height: 30px;">Centro infantil </a> </li>
+            <li style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 21px; color: #FFFFFF; height: 45px;"> <a href="#" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 20px; color: #FFFFFF; height: 30px;">Contactos </a> </li>
             <li>
-                <a href="#" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 20px; color: #FFFFFF">Actividades </a>
+                <a href="#" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 20px; color: #FFFFFF; height: 30px;">Actividades </a>
                 <ul>
                     <li> <a href="Calendario.aspx" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 20px; color: #FFFFFF"> Calendario </a> </li>
                     <li> <a href="Miembro.aspx" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 20px; color: #FFFFFF">Miembros (0.1v) </a> </li>
@@ -40,12 +40,8 @@
     <!--<form id="form1"  runat="server" style="background-color: #CCCCFF">
         <asp:HyperLink ID="HyperLink1" runat="server">Sign-in</asp:HyperLink>
     </form>-->
-      <figure>
-          <h1 style="font-family: 'Malgun Gothic Semilight'; font-size: 30px">Bienvenidos a la Ibc de san francisco de macoris</h1>
-          <hr />
-          <p><u>Esta pagina esta siendo creada con el motivo de adorar a nuestro señor jesucristo.</u></p>
-         <img src="startof.jpg" style="height: 256px; width: 320px"  />
-      </figure>
+         <img id="imagenes" src="startof.jpg" style="height: 256px; width: 985px"  />
+    
       <hr />
          </div>
 

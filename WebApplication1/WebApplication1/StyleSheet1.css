@@ -18,8 +18,8 @@
     {
      
         background-color:darkgray;
-        height:1151px;
-        margin-left:200px;
+        height:2000px;
+        margin-left:202px;
         width: 993px;
     }
 
@@ -32,7 +32,8 @@
         margin-left: 0px;
         margin-top: 0px;
         width:100%;
-    }
+    height: 53px;
+}
     #sign
     {
         margin-left:940px;
@@ -42,6 +43,7 @@
         nav ul, ol {
             list-style: none;
     width: 995px;
+    height: 57px;
 }
 
         nav li a:hover {
@@ -55,7 +57,7 @@
             padding: 10px;
             text-align: center;
             text-decoration: none;
-    width: 198px;
+    width: 216px;
 }
 
 
@@ -66,8 +68,9 @@
 
         nav > ul > li {
             float: left;
-            width: 194px;
-         }
+            width: 189px;
+    height: 58px;
+}
             nav > ul > li > ul {
                 -webkit-transition: all .3s ease;
                 -moz-transition: all .3s ease;
