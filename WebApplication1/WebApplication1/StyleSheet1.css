@@ -1,0 +1,103 @@
+﻿body {
+}
+    * {
+        margin: 0px;
+        padding: 0px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    header {
+        font-size:40px;
+        text-align:center;
+        text-transform:uppercase;
+        margin: 5px;
+        
+        
+    }
+    #divBody
+    {
+     
+        background-color:darkgray;
+        height:1151px;
+        margin-left:200px;
+        width: 993px;
+    }
+
+    div
+    {
+        margin:0px;
+        width: 994px;
+    }
+    nav { 
+        margin-left: 0px;
+        margin-top: 0px;
+        width:100%;
+    }
+    #sign
+    {
+        margin-left:940px;
+        background-color:transparent;
+    }
+
+        nav ul, ol {
+            list-style: none;
+    width: 995px;
+}
+
+        nav li a:hover {
+            background-color: Highlight;
+            color: black;
+        }
+
+        nav li a {
+            display: block;
+            background-color: black;
+            padding: 10px;
+            text-align: center;
+            text-decoration: none;
+    width: 198px;
+}
+
+
+
+        nav > ul > li:hover > ul {
+            display: block;
+        }
+
+        nav > ul > li {
+            float: left;
+            width: 194px;
+         }
+            nav > ul > li > ul {
+                -webkit-transition: all .3s ease;
+                -moz-transition: all .3s ease;
+                -o-transition: all .3s ease;
+                transition: all .3s ease;
+                position: relative;
+                display: none;
+            }
+
+                nav > ul > li > ul > li > ul {
+                    display: none;
+                    position: relative;
+                }
+
+
+                nav > ul > li > ul > li > ul {
+                    right: -220px;
+                    margin-top: -35px;
+                }
+
+                nav > ul > li > ul > li:hover > ul {
+                    display: block;
+                }
+
+
+    h1 {color: cornflowerblue}
+    h2 {color: royalblue}
+    h3 {color: forestgreen}
+    h4 {color: crimson}
+    
+
+
+

@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
-    <link rel="stylesheet" href="StyleSheet1.css" type="text/css" />
+    <link rel="stylesheet" href="Stylesheet.css" type="text/css" />
     <style type="text/css">
         #form1 {
             height: 939px;
