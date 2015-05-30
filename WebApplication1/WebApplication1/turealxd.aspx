@@ -12,7 +12,7 @@
         }
     </style>
 </head>
-<body style="background-color:aqua" >
+<body style="background-color:aqua; background-image:url(back.jpg); background-attachment:fixed; " >
     <div >
        <img src="delvytoolbar.jpg"  style="margin-left:200px;width: 993px; height: 161px" />
         
@@ -44,7 +44,7 @@
           <h1 style="font-family: 'Malgun Gothic Semilight'; font-size: 30px">Bienvenidos a la Ibc de san francisco de macoris</h1>
           <hr />
           <p><u>Esta pagina esta siendo creada con el motivo de adorar a nuestro señor jesucristo.</u></p>
-         &nbsp;<img src="BIBLIA-1.jpg" style="height: 256px; width: 320px"  />
+         <img src="startof.jpg" style="height: 256px; width: 320px"  />
       </figure>
       <hr />
          </div>
