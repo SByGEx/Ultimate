@@ -18,7 +18,7 @@
         }
     </style>
 </head>
-<body style="background-color:darkgray">
+<body style="background-color:aqua" >
     <div >
        <img src="delvytoolbar.jpg"  style="margin-left:200px;width: 993px; height: 161px" />
         
