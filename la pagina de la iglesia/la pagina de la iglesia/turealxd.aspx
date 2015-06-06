@@ -2,7 +2,13 @@
 
 <!DOCTYPE html>
 
+<style>
+    body {background-attachment:fixed; background-image:url(back.jpg)}
+</style>
+
 <html xmlns="http://www.w3.org/1999/xhtml">
+
+
 <head runat="server">
     <title></title>
     <link rel="stylesheet" href="StyleSheet1.css" type="text/css" />
