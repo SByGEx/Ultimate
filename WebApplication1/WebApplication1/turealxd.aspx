@@ -6,6 +6,11 @@
 <head runat="server">
     <title></title>
     <link rel="stylesheet" href="StyleSheet1.css" type="text/css" />
+    <script src="sliderengine/jquery.js"></script>
+    <script src="sliderengine/amazingslider.js"></script>
+    <link rel="stylesheet" type="text/css" href="sliderengine/amazingslider-0.css"/>
+    <script src="sliderengine/initslider-0.js"></script>
+      
     <style type="text/css">
         #form1 {
             height: 939px;
@@ -34,7 +39,24 @@
             </li>
         </ul>
     </nav>
-      
+      <div id="amazingslider-wrapper-0" style="display:block;position:relative;max-width:900px;margin:90px auto 56px;">
+        <div id="amazingslider-0" style="display:block;position:relative;margin:0 auto;">
+            <ul class="amazingslider-slides" style="display:none;">
+                <li><a href="http://localhost:49650/turealxd.aspx" target="_blank"><img src="images/BIBLIA-1.jpg" alt="BIBLIA-1" data-duration="5000" /></a>
+                </li>
+                <li><img src="images/976083_74231444.jpg" alt="976083_74231444" />
+                </li>
+                <li><img src="images/recomendaciones.jpg" alt="recomendaciones" />
+                </li>
+            </ul>
+            <ul class="amazingslider-thumbnails" style="display:none;">
+                <li><img src="images/BIBLIA-1-tn.jpg" alt="BIBLIA-1" /></li>
+                <li><img src="images/976083_74231444-tn.jpg" alt="976083_74231444" /></li>
+                <li><img src="images/recomendaciones-tn.jpg" alt="recomendaciones" /></li>
+            </ul>
+        <div class="amazingslider-engine"><a href="http://amazingslider.com" title="JavaScript Slideshow">JavaScript Slideshow</a></div>
+        </div>
+    </div>
       <a href="#" id="sign" > Sign-in </a>
       <a href="#" style="margin-left:930px"> Sign-out </a>
     <!--<form id="form1"  runat="server" style="background-color: #CCCCFF">
