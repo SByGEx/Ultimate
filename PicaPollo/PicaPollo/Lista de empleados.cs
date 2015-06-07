@@ -176,10 +176,12 @@ namespace PicaPollo
                 case DialogResult.Yes:
                     try
                     {
-                        conec.Open();
-                        SqlCommand comand = new SqlCommand(string.Format("UPDATE Empleados WHERE Cedula = '{0}' SET Nombre = '{1}', Apellido = '{2}',Sexo ='{3}',FechaNacimiento = CONVERT(VARCHAR,'{4}',103),Cedula = '{5}' ", dataGridView1.CurrentRow.Cells["Cedula"], tbNombre.Text, tbApellido.Text, Sexo, dateTimePicker1.Value.ToString(), tbCelula.Text), conec);
-                        conec.Close();
-
+                        if (tbNombre.Text.Length >= 1 && (radioButton3.Checked || rbMasculino.Checked || rbFemenimo.Checked) && tbCelula.TextLength >= 10 && tbApellido.TextLength >= 2)
+                        {
+                            conec.Open();
+                            SqlCommand comand = new SqlCommand(string.Format("UPDATE Empleados WHERE Cedula = '{0}' SET Nombre = '{1}', Apellido = '{2}',Sexo ='{3}',FechaNacimiento = CONVERT(VARCHAR,'{4}',103),Cedula = '{5}' ", dataGridView1.CurrentRow.Cells["Cedula"], tbNombre.Text, tbApellido.Text, Sexo, dateTimePicker1.Value.ToString(), tbCelula.Text), conec);
+                            conec.Close();
+                        }
                         break;
                     }
                     catch

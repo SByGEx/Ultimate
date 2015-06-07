@@ -94,6 +94,11 @@ namespace PicaPollo
         {
             Lista_de_empleados otro = new Lista_de_empleados();
             otro.ShowDialog();                                 
-        } 
+        }
+
+        private void Empleados_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
