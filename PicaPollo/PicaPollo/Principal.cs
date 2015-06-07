@@ -36,9 +36,26 @@ namespace PicaPollo
         {
             
         }
+
+        private void agregarProductosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void agregarOQuitarProductosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Productos neo = new Productos();
+            neo.Show();
+        }
+
+        private void despacharMercancíaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Despacho neo = new Despacho();
+            neo.Show();
+        }
     }
 
-    public static class Utilities
+    public static class UtilityMethods
     {
         public static double SumarCeldas(this DataGridView dgvTemp, string columnName)
         {
