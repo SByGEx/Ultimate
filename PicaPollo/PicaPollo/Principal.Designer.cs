@@ -68,6 +68,7 @@
             this.agregarOQuitarEmpleadosToolStripMenuItem.Name = "agregarOQuitarEmpleadosToolStripMenuItem";
             this.agregarOQuitarEmpleadosToolStripMenuItem.Size = new System.Drawing.Size(223, 22);
             this.agregarOQuitarEmpleadosToolStripMenuItem.Text = "Agregar o Quitar Empleados";
+            this.agregarOQuitarEmpleadosToolStripMenuItem.Click += new System.EventHandler(this.agregarOQuitarEmpleadosToolStripMenuItem_Click);
             // 
             // despacharMercancíaToolStripMenuItem
             // 

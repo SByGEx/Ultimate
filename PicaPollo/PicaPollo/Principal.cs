@@ -53,6 +53,12 @@ namespace PicaPollo
             Despacho neo = new Despacho();
             neo.Show();
         }
+
+        private void agregarOQuitarEmpleadosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Empleados neo = new Empleados();
+            neo.Show();
+        }
     }
 
     public static class UtilityMethods
@@ -64,8 +70,7 @@ namespace PicaPollo
 
             foreach(DataGridViewRow dc in dgvTemp.Rows)
             {
-                temp = (string) dc.Cells[columnName].Value;
-                counter += Convert.ToDouble(temp);
+                counter += Convert.ToDouble(dc.Cells[columnName].Value);
             }
             
 

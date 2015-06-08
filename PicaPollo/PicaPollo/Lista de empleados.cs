@@ -30,7 +30,6 @@ namespace PicaPollo
             dataGridView1.AutoGenerateColumns = true;
             dataGridView1.DataSource = data;
             this.Height = 340;
-         
          }
 
         private void label1_Click(object sender, EventArgs e)
