@@ -70,7 +70,26 @@ namespace PicaPollo
 
         private void dgvFactura_RowLeave(object sender, DataGridViewCellEventArgs e)
         {
-            
+            try
+            {
+                double precio = Convert.ToDouble(dgvFactura.Rows[e.RowIndex].Cells["Precio"].Value);
+                double cantidad = Convert.ToDouble(dgvFactura.Rows[e.RowIndex].Cells["Cantidad"].Value);
+                dgvFactura.Rows[e.RowIndex].Cells["Total"].Value = precio * cantidad;
+            }
+            catch (Exception ex)
+            {
+
+            }
+        }
+
+        private void dgvFactura_Validated(object sender, EventArgs e)
+        {
+            tbTotal.Text = dgvFactura.SumarCeldas("Total").ToString("F2");
+        }
+
+        private void dgvFactura_CellValidated(object sender, DataGridViewCellEventArgs e)
+        {
+            tbTotal.Text = dgvFactura.SumarCeldas("Total").ToString("F2");
         }
 
         private void Despacho_Load(object sender, EventArgs e)
