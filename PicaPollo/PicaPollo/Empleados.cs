@@ -58,7 +58,7 @@ namespace PicaPollo
             }
             else
             {
-                errorProvider4.SetError(rbFemenimo, "Debe seleccionar una de las obciones");
+                errorProvider4.SetError(rbFemenimo, "Debe seleccionar una de las opciones");
             }
 
             if (rbFemenimo.Checked)
@@ -71,7 +71,7 @@ namespace PicaPollo
             try
             {
 
-                if (tbNombre.Text.Length >= 1 && (radioButton3.Checked || rbMasculino.Checked || rbFemenimo.Checked) && tbCelula.TextLength >= 10 && tbApellido.TextLength >= 2)
+                if (tbNombre.Text.Length >= 1 && radioButton3.Checked || rbMasculino.Checked || rbFemenimo.Checked && tbCelula.TextLength >= 10 && tbApellido.TextLength >= 2)
                 {
                     conec.Open();
                     SqlCommand coman = new SqlCommand(string.Format("INSERT INTO Empleados (Nombre,Apellido,Sexo,FechaNacimineto,cedula) VALUES ('{0}','{1}','{2}',CONVERT(VARCHAR,'{3}',103),'{4}')", tbNombre.Text, tbApellido.Text, Sexo, dateTimePicker1.Value.ToString(),tbCelula.Text),conec);

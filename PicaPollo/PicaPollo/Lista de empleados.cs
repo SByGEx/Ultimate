@@ -78,8 +78,8 @@ namespace PicaPollo
 
 
             tbNombre.DataBindings.Add("Text", data, "Nombre", false, DataSourceUpdateMode.Never);
-            tbApellido.DataBindings.Add("Text", data, "Nombre", false, DataSourceUpdateMode.Never);
-            tbCelula.DataBindings.Add("Text", data, "Nombre", false, DataSourceUpdateMode.Never);
+            tbApellido.DataBindings.Add("Text", data, "Apellido", false, DataSourceUpdateMode.Never);
+            tbCelula.DataBindings.Add("Text", data, "Cedula", false, DataSourceUpdateMode.Never);
 
             if (dataGridView1.CurrentRow.Cells["Sexo"].Value.ToString() == "M")
             {
@@ -106,7 +106,7 @@ namespace PicaPollo
             button4.Visible = true;
             groupBox1.Visible = true;
             groupBox2.Visible = true;
-            button2.Enabled = false;
+            button1.Enabled = false;
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -157,7 +157,7 @@ namespace PicaPollo
             }
             else
             {
-                errorProvider4.SetError(rbFemenimo, "Debe seleccionar una de las obciones");
+                errorProvider4.SetError(rbFemenimo, "Debe seleccionar una de las opciones");
             }
 
             if (rbFemenimo.Checked)
@@ -170,7 +170,7 @@ namespace PicaPollo
             DialogResult re = MessageBox.Show("Editar asegurece de aver puesto la fecha","",MessageBoxButtons.YesNo,MessageBoxIcon.Question);
 
 
-            switch(re)
+            switch (re)
             {
                 case DialogResult.Yes:
                     try
@@ -181,13 +181,18 @@ namespace PicaPollo
                             SqlCommand comand = new SqlCommand(string.Format("UPDATE Empleados WHERE Cedula = '{0}' SET Nombre = '{1}', Apellido = '{2}',Sexo ='{3}',FechaNacimiento = CONVERT(VARCHAR,'{4}',103),Cedula = '{5}' ", dataGridView1.CurrentRow.Cells["Cedula"], tbNombre.Text, tbApellido.Text, Sexo, dateTimePicker1.Value.ToString(), tbCelula.Text), conec);
                             conec.Close();
                         }
-                        break;
+                        
                     }
                     catch
                     {
                         MessageBox.Show("Error al editar", "", MessageBoxButtons.OK);
                     }
+                    MessageBox.Show("Accion Completa", "", MessageBoxButtons.OK);
+
                     break;
+
+                    
+
             }
 
 
@@ -202,7 +207,7 @@ namespace PicaPollo
             label6.Visible = false;
             button4.Visible = false;
             groupBox1.Visible = false;
-            button2.Enabled = false;
+            button1.Enabled = true;
             groupBox2.Visible = false;
             this.Height = 340;
         }
