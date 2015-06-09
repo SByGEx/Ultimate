@@ -209,6 +209,7 @@
             this.label4.Size = new System.Drawing.Size(40, 13);
             this.label4.TabIndex = 19;
             this.label4.Text = "Cedula";
+            this.label4.Visible = false;
             // 
             // label5
             // 
@@ -295,6 +296,7 @@
             this.groupBox2.TabIndex = 23;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Editar";
+            this.groupBox2.Visible = false;
             // 
             // Lista_de_empleados
             // 

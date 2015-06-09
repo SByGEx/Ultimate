@@ -39,7 +39,19 @@ namespace PicaPollo
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
+            SqlDataAdapter add = new SqlDataAdapter();
+            add = new SqlDataAdapter(string.Format("SELECT Nombre, Apellido,Sexo,FechaNacimiento,Cedula FROM Empleados WHERE Nombre LIKE '%{0}%'",textBox1.Text), conec);
+            add.Fill(data);
+            dataGridView1.AutoGenerateColumns = true;
+            dataGridView1.DataSource = data;
 
+            if(textBox1.Text.Length == 0)
+            { 
+                add = new SqlDataAdapter("SELECT Nombre, Apellido,Sexo,FechaNacimiento,Cedula FROM Empleados", conec);
+                add.Fill(data);
+                dataGridView1.AutoGenerateColumns = true;
+                dataGridView1.DataSource = data;
+            }
         }
 
         private void button1_Click(object sender, EventArgs e)
